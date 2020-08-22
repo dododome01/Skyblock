@@ -3,6 +3,7 @@
 ## Info
 
 This mod adds features, which make it possible to get all items in a "Vanilla" Skyblock experience.
+This mod is build on top of [ProtoSky](https://github.com/DeadlyMC/ProtoSky) and incorporates features from other mods.
 
 ## Sources
 
