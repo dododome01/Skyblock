@@ -6,15 +6,17 @@
         -Peony
         -Lilac
         -Rose Bush
-        
-        Lava                -> Renewable Lava
-        Dragon Head         -> Dragon Drop
-        Ores                -> Custom Crafting
-        Horse Armor         -> Custom Crafting
-        Heart of The sea    -> Elder Guardian Drop + Renewable
-        Sponge              -> Elder Guardian Renewable
-        Anciten Debris      -> Wither Drop
-        cobweb              -> Custom Crafting
+
         Elytra              -> World Gen
         Shulker             -> World Gen
-        OP-Apple            -> Custom Crafting
+        
+        Lava                -> Renewable Lava                           -Done, maybe Tweak?
+
+        Dragon Head         -> Dragon Drop                              -Done
+        Ores                -> Custom Crafting                          -Done
+        Horse Armor         -> Custom Crafting                          -Done
+        Heart of The sea    -> Elder Guardian Drop + Renewable          -Done
+        Sponge              -> Elder Guardian Renewable                 -Done
+        Anciten Debris      -> Wither Drop                              -Done
+        cobweb              -> Custom Crafting                          -Done
+        OP-Apple            -> Custom Crafting                          -Done
