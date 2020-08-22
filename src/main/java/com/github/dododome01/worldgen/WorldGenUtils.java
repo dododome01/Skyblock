@@ -63,11 +63,10 @@ public class WorldGenUtils
         StructureManager man = world.getStructureManager();
         Structure s = null;
 
-        // Get structure for this dimension
         if (world.getRegistryKey() == World.OVERWORLD) {
-            s = man.getStructure(new Identifier("protosky:spawn_overworld"));
+            s = man.getStructure(new Identifier("skyblock:spawn_overworld"));
         } else if (world.getRegistryKey() == World.NETHER) {
-            s = man.getStructure(new Identifier("protosky:spawn_nether"));
+            s = man.getStructure(new Identifier("skyblock:spawn_nether"));
         }
         if (s == null) return;
         CompoundTag t = new CompoundTag();
@@ -75,7 +74,8 @@ public class WorldGenUtils
         ChunkPos chunkPos = chunk.getPos();
         BlockPos blockPos = new BlockPos(chunkPos.x * 8, 64, chunkPos.z * 8);
 
-        s.place(new ChunkRegion(world, ImmutableList.of(chunk)), blockPos, new StructurePlacementData().setUpdateNeighbors(true), new Random());
+        //TODO Fix this shit
+        //s.place(new ChunkRegion(world, ImmutableList.of(chunk)), blockPos, new StructurePlacementData().setUpdateNeighbors(true), new Random());
         world.setSpawnPos(blockPos.add(s.getSize().getX() / 2, s.getSize().getY() + 1, s.getSize().getZ() / 2), 0);
     }
 }
