@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Q ",
+    "QNQ",
+    " Q "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_quartz_ore"
+  }
+}

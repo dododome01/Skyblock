@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GNG",
+    " G "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_gold_ore"
+  }
+}
