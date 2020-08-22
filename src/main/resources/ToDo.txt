@@ -1,0 +1,20 @@
+        -Diamond
+        -Berries
+        -Netherwart
+        -Chorus Flowers
+        -Sunflower
+        -Peony
+        -Lilac
+        -Rose Bush
+        
+        Lava                -> Renewable Lava
+        Dragon Head         -> Dragon Drop
+        Ores                -> Custom Crafting
+        Horse Armor         -> Custom Crafting
+        Heart of The sea    -> Elder Guardian Drop + Renewable
+        Sponge              -> Elder Guardian Renewable
+        Anciten Debris      -> Wither Drop
+        cobweb              -> Custom Crafting
+        Elytra              -> World Gen
+        Shulker             -> World Gen
+        OP-Apple            -> Custom Crafting

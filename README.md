@@ -1,9 +1,13 @@
-# Fabric Example Mod
+# dododome's Skyblock Mod
 
-## Setup
+## Info
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+This mod adds features, which make it possible to get all items in a "Vanilla" Skyblock experience.
+
+## Sources
+
+This mod uses features from fabric-carpet, QuickCarpet114 and ProtoSky. All those Projects are under the MIT License.
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is under the MIT license. Feel free use, distribute and incorporate it in your own projects.
