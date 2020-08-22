@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:emerald_ore"
+    ]
+  },
+  "criteria": {
+    "has_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald"
+          }
+        ]
+      }
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:emerald_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "skyblock:emerald_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_emerald",
+      "has_item",
+      "has_the_recipe"
+    ]
+  ]
+}
+

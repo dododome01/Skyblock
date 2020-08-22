@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:nether_quartz_ore"
+    ]
+  },
+  "criteria": {
+    "has_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:quartz"
+          }
+        ]
+      }
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:nether_quartz_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "skyblock:nether_quartz_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_quartz",
+      "has_item",
+      "has_the_recipe"
+    ]
+  ]
+}
+

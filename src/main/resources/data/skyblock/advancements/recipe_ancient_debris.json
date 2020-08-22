@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:ancient_debris"
+    ]
+  },
+  "criteria": {
+    "has_netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:netherite_scrap"
+          }
+        ]
+      }
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ancient_debris"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "skyblock:ancient_debris"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_scrap",
+      "has_item",
+      "has_the_recipe"
+    ]
+  ]
+}
+

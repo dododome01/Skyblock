@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:gilded_blackstone"
+    ]
+  },
+  "criteria": {
+    "has_gold_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gilded_blackstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "skyblock:gilded_blackstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gold_nugget",
+      "has_item",
+      "has_the_recipe"
+    ]
+  ]
+}
+

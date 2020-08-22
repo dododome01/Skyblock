@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:lapis_ore"
+    ]
+  },
+  "criteria": {
+    "has_lapis_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_block"
+          }
+        ]
+      }
+    },
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "skyblock:lapis_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lapis_block",
+      "has_item",
+      "has_the_recipe"
+    ]
+  ]
+}
+
