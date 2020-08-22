@@ -4,6 +4,7 @@
   "package": "com.github.dododome01.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "GuardianEntityMixin"
   ],
   "client": [
   ],
