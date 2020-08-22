@@ -1,4 +1,4 @@
-package com.github.dododome01.mixin;
+package com.github.dododome01.mixins;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

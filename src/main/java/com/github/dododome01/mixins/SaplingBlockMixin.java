@@ -1,4 +1,4 @@
-package com.github.dododome01.mixin;
+package com.github.dododome01.mixins;
 
 import com.github.dododome01.helper.BlockSaplingHelper;
 import net.minecraft.block.BlockState;

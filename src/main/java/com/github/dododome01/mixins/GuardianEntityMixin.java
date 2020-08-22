@@ -1,4 +1,4 @@
-package com.github.dododome01.mixin;
+package com.github.dododome01.mixins;
 
 import net.minecraft.entity.EntityData;
 import net.minecraft.entity.EntityType;
