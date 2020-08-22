@@ -3,6 +3,7 @@ package com.github.dododome01.helper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.server.world.ServerWorld;
@@ -23,11 +24,15 @@ public class ObsidianBlock extends Block {
 
     @Override
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
+        int lavaCount = 0;
         for (Direction dir : Direction.values()) {
             FluidState neighbor = world.getFluidState(pos.offset(dir));
-            if (neighbor.getFluid() != Fluids.LAVA || !neighbor.isStill()) return;
+            Fluid neighborFluid = neighbor.getFluid();
+            if (neighborFluid != Fluids.LAVA && neighborFluid != Fluids.FLOWING_LAVA) return;
+            if (neighbor.isStill()) lavaCount += 2;
+            else lavaCount += 1;
         }
-        if (random.nextInt(10) == 0) {
+        if (random.nextInt(10*(13-lavaCount)) == 0) {
             world.setBlockState(pos, Blocks.LAVA.getDefaultState());
         }
     }

@@ -7,11 +7,9 @@
         -Lilac
         -Rose Bush
 
-        Elytra              -> World Gen
-        Shulker             -> World Gen
-        
-        Lava                -> Renewable Lava                           -Done, maybe Tweak?
-
+        Elytra              -> World Gen                                -Done
+        Shulker             -> World Gen                                -Done
+        Lava                -> Renewable Lava                           -Done, tweaked
         Dragon Head         -> Dragon Drop                              -Done
         Ores                -> Custom Crafting                          -Done
         Horse Armor         -> Custom Crafting                          -Done
